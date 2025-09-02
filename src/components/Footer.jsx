@@ -30,33 +30,33 @@ const Footer = () => {
   </thead>
   <tbody>
     <tr>
-      <td><span class="underline-text">Features</span></td>
-      <td><span class="underline-text">About</span></td>
-      <td><span class="underline-text">Getting Started</span></td>
-      <td><span class="underline-text">thementorxacademy@gmail.com</span></td>
+      <td><span className="underline-text">Features</span></td>
+      <td><span className="underline-text">About</span></td>
+      <td><span className="underline-text">Getting Started</span></td>
+      <td><span className="underline-text">thementorxacademy@gmail.com</span></td>
     </tr>
     <tr>
-      <td><span class="underline-text">Pricing</span></td>
-      <td><span class="underline-text">Careers</span></td>
-      <td><span class="underline-text">Help Center</span></td>
-      <td><span class="underline-text">8270189438</span></td>
+      <td><span className="underline-text">Pricing</span></td>
+      <td><span className="underline-text">Careers</span></td>
+      <td><span className="underline-text">Help Center</span></td>
+      <td><span className="underline-text">8270189438</span></td>
     </tr>
     <tr>
-      <td><span class="underline-text">Case Studies</span></td>
-      <td><span class="underline-text">Culture</span></td>
-      <td><span class="underline-text">Report a bug</span></td>
-      <td><span class="underline-text">Kilakarai, Ramanathapuram</span></td>
+      <td><span className="underline-text">Case Studies</span></td>
+      <td><span className="underline-text">Culture</span></td>
+      <td><span className="underline-text">Report a bug</span></td>
+      <td><span className="underline-text">Kilakarai, Ramanathapuram</span></td>
     </tr>
     <tr>
-      <td><span class="underline-text">Reviews</span></td>
-      <td><span class="underline-text">Blog</span></td>
-      <td><span class="underline-text">Chat Support</span></td>
+      <td><span className="underline-text">Reviews</span></td>
+      <td><span className="underline-text">Blog</span></td>
+      <td><span className="underline-text">Chat Support</span></td>
       <td></td>
     </tr>
     <tr>
-      <td><span class="underline-text">Updates</span></td>
-      <td class="none"></td>
-      <td><span class="underline-text">Server Status</span></td>
+      <td><span className="underline-text">Updates</span></td>
+      <td className="none"></td>
+      <td><span className="underline-text">Server Status</span></td>
       <td></td>
     </tr>
   </tbody>
