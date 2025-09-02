@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Fira+Sans&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.course-container {
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+}
+.green-border {
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  border-radius: 5px;
+  top: -100px;
+  left: 320px;
+  border: 1px solid #a6cd39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.green-box {
+  height: 100%;
+  width: 100%;
+  background-color: #a6cd39;
+  border-radius: 5px;
+}
+.green-border2 {
+  height: 150px;
+  width: 150px;
+  background-color: transparent;
+  position: absolute;
+  transform: rotate(35deg);
+  border-radius: 5px;
+  top: 340px;
+  left: 760px;
+  border: 1px solid #a6cd39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  z-index: -1;
+}
+.green-box2 {
+  height: 100%;
+  width: 100%;
+  background-color: #a6cd39;
+  border-radius: 5px;
+}
+.course-content {
+  margin-left: 7rem;
+  padding-top: 5rem;
+  z-index: 1;
+}
+.course-content .header {
+  display: flex;
+  justify-content: space-between;
+}
+.header button {
+  margin-right: 7rem;
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 45px;
+  width: 180px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  height: 50px;
+  margin-top: 1.2rem;
+}
+
+.course-content h1 {
+  color: #1c3e5f;
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.course-cards {
+  margin-top: 4rem;
+  display: flex;
+  gap: 5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+.course {
+  border: 1.5px solid black;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 24%;
+  color: #1c3e5f;
+  padding-bottom: 1rem;
+  transition: 0.2s ease;
+  z-index: 1;
+  background-color: white;
+  position: relative;
+}
+.course:hover {
+  box-shadow: 7px 7px black;
+}
+.course-text {
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+}
+.course img {
+  height: 200px;
+  width: 100%;
+  border-radius: 23px;
+}
+.course .title {
+  background-color: lightgray;
+  width: 44%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  height: 2rem;
+}
+.course .price {
+  text-align: end;
+  margin-right: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.course .experience {
+  display: flex;
+  font-size: 0.8rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+.course .experience :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.course .experience :nth-child(2) {
+  margin-left: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.description {
+  width: 90%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.course p {
+  margin-top: 0.8rem;
+  font-size: 0.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/* course 2 */
+
+.course2-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 4rem;
+ 
+}
+.course2-container h2{
+text-align: center;
+ font-family: sans-serif;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #1c3e5f;
+}
+.video-sec{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.green-border3 {
+  height: 150px;
+  width: 150px;
+  background-color: transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  border-radius: 10px;
+  top: -40px;
+  right: -70px;
+  border: 1px solid #a6cd39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  z-index: 2;
+
+}
+.green-box3 {
+  height: 100%;
+  width: 100%;
+  background-color: #a6cd39;
+  border-radius: 10px;
+}
+.green-border4 {
+  height: 150px;
+  width: 150px;
+  background-color: transparent;
+  position: absolute;
+  transform: rotate(30deg);
+  border-radius: 10px;
+  top: 200px;
+  left: -70px;
+  border: 1px solid #a6cd39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+
+}
+.green-box4 {
+  height: 100%;
+  width: 100%;
+  background-color: #a6cd39;
+  border-radius: 10px;
+}
+.video{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 30rem;
+    border-radius: 20px;
+    z-index: 1;
+}
+.course2-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;  
+    width: 80%;
+    gap: 1rem;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.green-border5 {
+  height:200px;
+  width: 200px;
+  background-color: transparent;
+  position: absolute;
+  transform: rotate(47deg);
+  border-radius: 10px;
+  top: 120px;
+  right: -250px;
+  border: 1px solid #a6cd39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.green-box5 {
+  height: 100%;
+  width: 100%;
+  background-color: #a6cd39;
+  border-radius: 10px;
+
+}
+.card2 .icon-text{
+    display: flex;
+    align-items: center;
+}
+.card2 .icon{
+    font-size: 2rem;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 6px #a6cd39;
+}
+.card2 h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #1c3e5f;
+  line-height: 30px;
+  text-align: start;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+
+}
+.card2 p{
+    width: 100%;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  font-size: .9rem;
+  width: 90%;
+
+}

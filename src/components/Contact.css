@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Fira+Sans&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.contact-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    overflow: hidden;
+   
+}
+.contact-txt{
+    width: 50%;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    position: relative;
+}
+.contact-txt h1{
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 40px;
+
+}
+.contact-txt p{
+    margin-top: 2rem;
+    width: 40%;
+    font-size: 1.2rem;
+      font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.contact-txt .icon{
+    position: absolute;
+    height: 300px;
+    bottom: -80px;
+    transform: rotate(260deg);
+}
+
+.contact-info{
+    margin-top: 2rem;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    box-shadow: 12px 12px #a6cd39;
+    border-radius: 20px;
+
+
+}
+.contact-info h1{
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin-bottom: .8rem;
+}
+.contact-info input{
+    width: 350px;
+    height: 55px;
+    border-radius: 30px;
+    margin-top: .5rem;
+     font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+   padding-left: 1rem;
+  border: 3px solid black;
+}
+
+.contact-info textarea{
+    height: 11rem;
+    border: 3px solid black;
+    margin-top: .5rem;
+    border-radius: 30px;
+      font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.contact-info button{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: .5rem;
+    align-self: end;
+    color: white;
+    background-color: black;
+         font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    
+}
+.contact-container .icon2{
+    height: 120px;
+    transform: rotate(350deg);
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
